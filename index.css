@@ -199,7 +199,7 @@ section > h3 > span {
   background-color: white;
   margin: 1% 0;
   color: #242124;
-  font-size:calc(0.7rem + 1vw);
+  font-size:3.5vw;
 }
 .course-knowledge > ul > li > span:nth-child(1) {
   color: var(--yellow-theme);
@@ -234,8 +234,6 @@ section > h3 > span {
 }
 
 /*course module*/
-.course-module {
-}
 
 /**/
 .buy {
@@ -328,7 +326,7 @@ footer > span {
   }
   .course-knowledge > ul > li {
     padding: 3% 2.5%;
-    font-size: 14px;
+    font-size:14px;
     height: fit-content;
   }
 
