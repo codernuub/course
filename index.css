@@ -364,7 +364,7 @@ background-color: #eee;
   font-size:12px;
 }
 .course-feedback > .feedbacks > .feedback > .time {
-  font-size:10px
+  font-size:10px;
   color:grey;
 }
 .course-feedback > .feedbacks > .feedback > .rating {
