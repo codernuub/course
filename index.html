@@ -1,150 +1,214 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
-  </head>
+    <script defer src="./index.js"></script>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="head">
-        <h2>PADH<span>HIGH</span></h2>
-        <img src="assets/shopping-cart.svg" />
-      </div>
-      <form class="search">
-        <input placeholder="Search for Anything" />
-        <button>search</button>
-      </form>
+        <div class="head">
+            <h2>PADH<span>HIGH</span></h2>
+            <img src="assets/shopping-cart.svg" />
+        </div>
+        <form class="search">
+            <input placeholder="Search for Anything" />
+            <button>search</button>
+        </form>
     </header>
 
     <section class="contents">
-      <div class="path">
-        <a href="">Bussiness</a> / <a href="">Finance</a> /
-        <a href="">Bussiness Analyst</a>
-      </div>
-      <!--course preview-->
-      <section class="course-intro">
-        <div class="course-preview">
-          <video controls></video>
-          <h5>Course preview</h5>
-          <p>
-            Everything you need to know about bussiness from start-up to IPO
-          </p>
+        <div class="path">
+            <a href="">Bussiness</a> / <a href="">Finance</a> /
+            <a href="">Bussiness Analyst</a>
         </div>
-        <div class="course-detail">
-          <h4>MBA 2020</h4>
-          <ul>
-            <li class="reviews">
-              <span>Reviews </span>
-              <span>5 star (45,00)</span>
-            </li>
-            <li class="students">
-              <span>Students </span>
-              <span>1500</span>
-            </li>
-            <li class="lang">
-              <span>Language </span>
-              <span>English</span>
-            </li>
-            <li class="creator">
-              <span>Creator </span>
-              <span>Shasfddfdffdw</span>
-            </li>
-          </ul>
-          <span>&#8377; 700</span>
-          <button>Add to cart</button>
-        </div>
-      </section>
+        <!--course preview-->
+        <section class="course-intro">
+           
+            <div class="course-preview">
+                <h2>MBA 2020</h2>
+                <video controls></video>
+                <p>
+                    Everything you need to know about bussiness from start-up to IPO
+                </p>
+            </div>
+            <div class="course-detail">
+              
+                <ul>
+                    <li class="reviews">
+                        <span>Reviews </span>
+                        <span>5 star (45,00)</span>
+                    </li>
+                    <li class="students">
+                        <span>Students </span>
+                        <span>1500</span>
+                    </li>
+                    <li class="lang">
+                        <span>Language </span>
+                        <span>English</span>
+                    </li>
+                    <li class="creator">
+                        <span>Creator </span>
+                        <span>Shasfddfdffdw</span>
+                    </li>
+                </ul>
+                <div><span>&#8377; 1200</span><span>&#8377; 700</span></div>
+                <button>Add to cart</button>
+            </div>
+        </section>
 
-      <!--what you will learn-->
-      <section class="course-knowledge">
-        <h3>WHAT YOU'LL <span>LEARN</span></h3>
-        <ul>
-          <li>
-            <span>&#10003;</span><span>Launch a company from scratch</span>
-          </li>
-          <li>
-            <span>&#10003;</span
-            ><span>Analyze company financial with ease</span>
-          </li>
-          <li>
-            <span>&#10003;</span
-            ><span
-              >Understand how management consulting firms works and when you
-              need to hire them</span
-            >
-          </li>
-          <li>
-            <span>&#10003;</span><span>Raise a lot of money quickly</span>
-          </li>
-          <li>
-            <span>&#10003;</span
-            ><span>Get many customers by usingthe networking tool</span>
-          </li>
-        </ul>
-      </section>
+        <!--what you will learn-->
+        <section class="course-knowledge">
+            <h3>WHAT YOU'LL <span>LEARN</span></h3>
+            <ul>
+                <li>
+                    <span>&#10003;</span><span>Launch a company from scratch</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Analyze company financial with ease</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Understand how management consulting firms works and when you
+                        need to hire them</span>
+                </li>
+                <li>
+                    <span>&#10003;</span>
+                    <span>Understand how management consulting firms works and when you need to hire them</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Raise a lot of money quickly</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Get many customers by usingthe networking tool</span>
+                </li>
+            </ul>
+            <ul class="hidden-list">
+                <li>
+                    <span>&#10003;</span><span>Get many customers by usingthe networking tool</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Analyze company financial with ease</span>
+                </li>
+                <li>
+                    <span>&#10003;</span><span>Raise a lot of money quickly</span>
+                </li>
+            </ul>
+            <button class="show-more" onclick="showMore();">show more</button>
+        </section>
 
-      <!--course modules-->
-      <section class="course-include">
-        <h5>This course includes :</h5>
-        <ul>
-          <li>2 hours on demand video</li>
-          <li>3 articles</li>
-          <li>2 downloadable resources</li>
-          <li>Full time life time access</li>
-          <li>Access on mobile and TV</li>
-          <li>2 hours on demand video</li>
-          <li>Certification of completion</li>
-        </ul>
-      </section>
+        <!--course modules-->
+        <section class="course-include">
+            <h5>This course includes :</h5>
+            <ul>
+                <li>38 hours on demand video</li>
+                <li>3 articles</li>
+                <li>18 downloadable resources</li>
+                <li>Full time life time access</li>
+                <li>Access on mobile and TV</li>
+                <li>Certification of completion</li>
+            </ul>
+        </section>
 
-      <!--course module-->
-      <section class="course-module">
-        <h3>Course <span>Module</span></h3>
-      </section>
+        <!--course module-->
+        <section class="course-module">
+            <h3>COURSE <span>MODULE</span></h3>
+            <p>Total Length : 37 hours 45min</p>
+            <p>Course Contains : 6 Modules</p>
+
+            <div class="modules">
+              
+                <div class="module">
+                    <h3>Module 1 : Accounting and Finance</h3>
+                    <span>8 Videos</span>
+                    <span>8 Resources</span>
+                </div>
 
 
+                <div class="module">
+                    <h3>Module 1 : Marketing and Communications</h3>
+                    <span>3 Videos</span>
+                    <span>4 Resources</span>
+                </div>
 
-       <!--footer-->
-       <footer>
-        <div class="more">
-          <!--list 1-->
-          <ul>
-            <li>About us</li>
-            <li>Padhhigh Dairies</li>
-            <li>For Campus</li>
-          </ul>
 
-          <!--list 2-->
-          <ul>
-            <li>Habits</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-          </ul>
+                <div class="module">
+                    <h3>Module 3 : Technology</h3>
+                    <span>2 Videos</span>
+                    <span>2 Resources</span>
+                </div>
 
-          <!--list 3-->
-          <ul>
-            <li>Courses</li>
-            <li>For Bussiness</li>
-            <li>Faculty</li>
-          </ul>
-        </div>
+                <div class="module">
+                    <h3>Module 4 : Human Resources and Legal Issues</h3>
+                    <span>2 Videos</span>
+                    <span>2 Resources</span>
+                </div>
 
-        <ul>
-          <li>PRIVACY POLICY</li>
-          <li>COOKIE POLICY</li>
-          <li>TERM & CONDITIONS</li>
-        </ul>
 
-        <span>Copyright &copy; 2020 PADHHIGH</span>
-      </footer>
+                <div class="module">
+                    <h3>Module 5 : Economics</h3>
+                    <span>3 Videos</span>
+                    <span>2 Resources</span>
+                </div>
+
+
+                <div class="module">
+                    <h3>Module 6 : General Management</h3>
+                    <span>2 Videos</span>
+                    <span>1 Resources</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!--fculty member-->
+        <!--course module-->
+        <section class="faculty-member">
+            <h3>FACULTY<span>MEMBERS</span></h3>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <div class="more">
+                <!--list 1-->
+                <ul>
+                    <li>About us</li>
+                    <li>Padhhigh Dairies</li>
+                    <li>For Campus</li>
+                </ul>
+
+                <!--list 2-->
+                <ul>
+                    <li>Habits</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                </ul>
+
+                <!--list 3-->
+                <ul>
+                    <li>Courses</li>
+                    <li>For Bussiness</li>
+                    <li>Faculty</li>
+                </ul>
+            </div>
+
+            <ul>
+                <li>PRIVACY POLICY</li>
+                <li>COOKIE POLICY</li>
+                <li>TERM & CONDITIONS</li>
+            </ul>
+
+            <span>Copyright &copy; 2020 PADHHIGH</span>
+        </footer>
 
     </section>
 
 
     <div class="buy">
-      <span>&#8377; 700</span>
-      <button>Buy now</button>
+        <span>&#8377; 700</span>
+        <button>Buy now</button>
     </div>
-  </body>
+</body>
+
 </html>
