@@ -50,7 +50,7 @@ header > form {
   border-radius: 5px;
 }
 header > form > input {
-  width: 70%;
+  width: 80%;
   padding: 3% 2.5%;
   border: transparent;
 }
@@ -361,10 +361,10 @@ background-color: #eee;
 }
 .course-feedback > .feedbacks > .feedback > .name {
   font-weight: bold;
-  font-size:min(1rem , 1vw);
+  font-size:12px;
 }
 .course-feedback > .feedbacks > .feedback > .time {
-  font-size:min(0.4rem , 1vw);
+  font-size:10px
   color:grey;
 }
 .course-feedback > .feedbacks > .feedback > .rating {
