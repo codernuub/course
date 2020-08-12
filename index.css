@@ -199,7 +199,7 @@ section > h3 > span {
   background-color: white;
   margin: 1% 0;
   color: #242124;
-  font-size: min(0.7rem, 1vw);
+  font-size:calc(0.7rem + 1vw);
 }
 .course-knowledge > ul > li > span:nth-child(1) {
   color: var(--yellow-theme);
