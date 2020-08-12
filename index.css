@@ -55,7 +55,7 @@ header > form > input {
   border: transparent;
 }
 header > form > button {
-  width: 30%;
+  width: 20%;
   border: transparent;
   background-color: var(--yellow-theme);
   color: white;
